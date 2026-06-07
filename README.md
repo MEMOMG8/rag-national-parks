@@ -222,23 +222,15 @@ The interface is built with Gradio and runs at http://localhost:7860.
 
 
 
-\## Evaluation Report
+## Evaluation Report
 
-
-
-| # | Question | Expected | System Response | Accuracy |
-
-|---|----------|----------|-----------------|----------|
-
-| 1 | What wildlife can visitors see at Yellowstone? | List of animals like bison, bears, wolves | Correctly listed 67 mammals with specific species | Accurate |
-
-| 2 | How do I get a camping permit at the Grand Canyon? | Permit process, backcountry office | Retrieved permit page but content was incomplete due to NPS page being in-progress | Partially Accurate |
-
-| 3 | What are the most popular hikes in Yosemite? | Trail names like Half Dome, Mist Trail | Mentioned strenuous hikes generally but lacked specific trail names | Partially Accurate |
-
-| 4 | Is Zion National Park open year-round? | Yes, with seasonal variations | Could not answer — weather/hours page had limited content | Inaccurate |
-
-| 5 | What is the best time to visit Great Smoky Mountains? | Spring/fall for foliage and weather | Returned animal and camping content, not seasonal visit info | Inaccurate |
+| # | Question | Expected | Accuracy |
+|---|----------|----------|----------|
+| 1 | What wildlife can visitors see at Yellowstone? | List of animals like bison, bears, wolves | Accurate |
+| 2 | How do I get a camping permit at the Grand Canyon? | Permit process, backcountry office | Partially Accurate |
+| 3 | What are the most popular hikes in Yosemite? | Trail names like Half Dome, Mist Trail | Partially Accurate |
+| 4 | Is Zion National Park open year-round? | Yes, with seasonal variations | Inaccurate |
+| 5 | What is the best time to visit Great Smoky Mountains? | Spring/fall for foliage | Inaccurate ||
 
 
 
